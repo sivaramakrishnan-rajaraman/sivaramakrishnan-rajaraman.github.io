@@ -135,7 +135,6 @@ footer {
   }
 }
 
-
 /* Reduce profile photo size */
 .profile-photo {
   width: 120px;
@@ -154,27 +153,9 @@ h2 {
   margin: 2em 0;
 }
 
-/* 1. Shrink profile photo */
-.profile-photo {
-  width: 120px;       /* adjust as needed */
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 1em;
-}
-
-/* 2. Add spacing around all H2 headings */
-h2 {
-  margin: 2em 0 1em;
-}
-
 /* 3. Space out each project entry */
 section#projects .project {
   margin: 1.5em 0;
-}
-
-/* 4. Give “View all on Google Scholar” breathing room */
-.view-all {
-  margin: 2em 0;
 }
 
 /* 5. Space between Awards → Skills, and Skills → Membership */
