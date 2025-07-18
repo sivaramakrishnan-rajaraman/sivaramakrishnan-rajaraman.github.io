@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('assets/images/NIH_Clinical_Research_Center_aerial.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 2em auto;
+  background-color: rgba(255,255,255,0.85);
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 4em 0;
+}
+.hero .overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-container {
+  position: relative;
+  z-index: 1;
+  background: none;
+  padding: 0;
+}
+.hero h1,
+.hero .title,
+.hero .affiliation,
+.hero .contact a,
+.hero .social-links a {
+  color: #fff;
+}
+
+h1, h2, h3 {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.social-links a,
+.contact a {
+  color: #0056b3;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+.social-links a:hover,
+.contact a:hover {
+  text-decoration: underline;
+}
+
+section#projects .project {
+  margin: 2em 0;
+}
+
+section#metrics table {
+  margin: 0 auto 2em;
+  width: 60%;
+  border-collapse: collapse;
+}
+section#metrics th,
+section#metrics td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.histogram img {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2em;
+}
+.pub-list li {
+  margin-bottom: 0.8em;
+}
+.pub-list a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+section#global-interaction table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+section#global-interaction th,
+section#global-interaction td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.spaced {
+  margin-top: 1.5em;
+}
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 1em;
+    padding: 1em;
+  }
+  section#metrics table {
+    width: 100%;
+  }
+  section#global-interaction table,
+  section#metrics table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+
+/* Reduce profile photo size */
+.profile-photo {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+/* Add spacing around section headings */
+h2 {
+  margin: 2em 0 1em;
+}
+
+/* Spacing for View all link before next section */
+.view-all {
+  margin: 2em 0;
+}
